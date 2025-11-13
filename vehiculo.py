@@ -63,7 +63,7 @@ class Vehiculo:
                 # Verificar si está fuera de horario
                 fuera_horario = ""
                 if detalle["llegada"] > 17.0:  # Después de las 5:00 PM
-                    fuera_horario = " ❌ FUERA DE HORARIO"
+                    fuera_horario = "  FUERA DE HORARIO"
                 
                 print(f"  • {detalle['ciudad']} (Llegada: {hora_str}, Entrega: {paquetes} paquetes){fuera_horario}")
         
